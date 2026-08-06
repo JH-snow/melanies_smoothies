@@ -2,7 +2,7 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 
-conn = st.connetion("snowflake")
+conn = st.connection("snowflake")
 session = conn.session()
 
 # Write directly to the app
